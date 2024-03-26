@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="assets/styles/style1.css">
+  <title>Portfolio</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
+            <div class="brand">
+                <h2>V<span>F</span></h2>
+            </div>
+        
+            <ul class="menu" id="menu">
+                <li>
+                <a class="active" href="#">About me</a>
+                </li>
+                <li>
+                    <a href="#studies">Studies</a>
+                </li>
+                <li >
+                <a href="#projects">Projects</a>
+                </li>
+                <li>
+                <a href="#skills">Skills</a>
+                </li>
+                <li>
+                <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-toggle">
+                <i class = "fas fa-bars" id="toggle_open"></i>
+                <i class = "fas fa-times" id="toggle_close"></i>
+            </div>
+            </nav>
+        </header>    
+        <div class="aboutme">
+            <div class="info">
+
+                <h1>I'm <span>Vanessa</span> Fernández</h1>
+                <p>
+                    Profesional con más de veinte años de experiencia laboral en distintos sectores.
+                    Siempre he sido una apasionada del sector IT, dicha pasión hace que comience a formarme
+                    en dicho sector, al que por distintas circunstancias nunca hasta este momento he podido formarme en él.
+                    Comencé haciendo un curso de desarrollo front-end tocando diversos lenguajes como HTML, CSS, este
+                    primer contacto me lleva a interesarme por el desarrollo back-end y decido hacer un curso
+                    de desarrollo profesional desde cero con el lenguaje Java, empezando con programación estructurada,
+                    pasando por programación orientada a objetos, para finalizar con API-REST, usando tecnologías como
+                    SpringBoot,Spring JPA, Hibernate y bases de datos SQL.
+                    Actualmente sigo con mi formación haciendo un bootcamp de desarrollo front-end, back-end y Api's.
+                    En estos momentos me encuentro en pleno proceso de reciclaje para poder dedicarme profesionalmente
+                    al sector IT.
+                    Mi carrera laboral comenzó como auxiliar administrativo, tras varios años desarrollándome y creciendo
+                    laboralmente en este sector decido montar mi propio negocio.
+                    Me considero una persona inquieta de hecho es esa inquietud la que me hace estar continuamente
+                    aprendiendo nuevas aptitudes y conocimientos.
+            </div>
+            <div class="imagen">
+                <img src="assets/images/FotoCV.png.png" alt="imagen">
+            </div>    
+        </div>
+    </div>
+    <main>
+        <section class="studies" id="studies">
+            <div class="headings">
+                <h2>Studies</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="list_studies">
+                <ul>
+                    <li style="--accent-color:#41516C">
+                        <div class="date">2024 - Actualidad</div>
+                        <div class="title">Bootcamp RuralHack</div>
+                        <div class="desc">Bootcamp con tres modulos diferenciados, Modulo Front-End (HTML,CSS,JavaScript,React, Next), Modulo Back-End y Modulo de Api's</div>
+                    </li>
+                    <li style="--accent-color:#FBCA3E">
+                        <div class="date">Ene 2023 - Dic 2023</div>
+                        <div class="title">Curso Desarrollo de Software Profesional</div>
+                        <div class="desc">Desarrollo Back-End, Java, Programacion Estructurada, Programación Orientada a Objetos, API-REST, SpringBoot</div>  
+                    </li>
+                    <li style="--accent-color:#E24A68">
+                        <div class="date">Marz 2020 - Nov 2020</div>
+                        <div class="title">Bootcamp Bottega</div>
+                        <div class="desc">Desarrollor Front-End, HTML, CSS, JavaScript</div>
+                    </li>
+                    <li style="--accent-color:#1B5F8C">
+                        <div class="date">Sept 2000 - Jun 2001</div>
+                        <div class="title">Secretariado de Dirección</div>
+                        <div class="desc">Facturación, Contabilidad</div>
+                    </li>
+                    <li style="--accent-color:#4CADAD">
+                        <div class="date">Sept 1994 - Jun 1999</div>
+                        <div class="title">Bachillerato</div>
+                        <div class="desc">Titulo de Bachillerato</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <div class="headings">
+                <h2>My Projects</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="container">
+                <article class="project-card">
+                    <a href="https://github.com/mariva0280/CitasHospital" target="_blank">
+                      <div class="top-info-project">
+                        <img src="assets/images/computer.jpg" alt="Logo" >
+                        <div class="technologies">
+                          <ul>
+                            <li>Java</li>
+                            <li>SrpingBoot</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </a>
+                    <h3>Gestion Citas</h3>
+                    <p>Sistema gestión citas hospitalarias</p>
+                  </article>
+                  <article class="project-card">
+                    <a href="https://github.com/mariva0280/vehiculos" target="_blank">
+                      <div class="top-info-project">
+                        <img src="assets/images/computer.jpg" alt="Logo" >
+                        <div class="technologies">
+                          <ul>
+                            <li>Java (POO)</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </a>
+                    <h3>Gestion Concesionario</h3>
+                    <p>Sistema gestión concesionario</p>
+                  </article>
+                  <article class="project-card">
+                    <a href="https://github.com/mariva0280/Challenge" target="_blank">
+                      <div class="top-info-project">
+                        <img src="assets/images/computer.jpg" alt="Logo" >
+                        <div class="technologies">
+                          <ul>
+                            <li>Html</li>
+                            <li>Css</li>
+                            <li>React</li>
+                            <li>Java</li>
+                            <li>SrpingBoot</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </a>
+                    <h3>Gestion invitados</h3>
+                    <p>Sistema gestión lista invitados</p>
+                  </article>
+            </div>  
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="headings">
+                <h2>Skills</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="list-skills">
+                <div class="container">
+                    <div class="progress less" style="--i:100;--clr:rgb(255, 121, 4);">
+                        <h3>100%</h3>
+                        <h4>Spanish</h4>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="progress less" style="--i:80;--clr:rgb(255, 234, 0);">
+                        <h3>80%</h3>
+                        <h4>English</h4>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="progress less" style="--:50;--clr:rgba(0, 25, 252, 0.3);">
+                        <h3>50%</h3>
+                        <h4>Html:5</h4>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="progress less" style="--i:50;--clr:rgba(10, 214, 10);">
+                        <h3>50%</h3>
+                        <h4>Css</h4>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="progress less" style="--i:50;--clr:rgba(204, 10, 4);">
+                        <h3>50%</h3>
+                        <h4>Javascript</h4>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="progress less" style="--i:65;--clr:rgba(5, 21, 170);">
+                        <h3>65%</h3>
+                        <h4>Java</h4>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <section class="contact" id="contact">
+            <div class="headings">
+                <h2>Keep in touch</h2>
+                <div class="divider"></div>
+            </div>
+           
+            <div class="container-contact">
+            <img src="assets/images/FotoCV.png.png" alt="">
+                <div class="contact-form">
+                    <h4>Send me a message...</h4>
+                    <form>
+                        <div class="row">
+                            <div class="input-group">
+                                <input type="text" id="name" name="name" required validations="required lengthmin nonum">
+                                <label for="name"><i class="fas fa-user"></i> Your Name</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="tel" id="phone" name="number" required validations="required noletters lengthmax">
+                                <label for="number"><i class="fas fa-phone-square-alt"></i> Phone no.</label>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" required validations="required formatmail ">
+                            <label for="email"> <i class="fas fa-envelope"></i> Email id</label>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="message"rows="8" required validations="textlimit"></textarea>
+                            <label for="message"><i class="fas fa-comments"></i> Your Message</label>
+                        </div>
+                        <button id="boton-enviar" type="submit">SUBMIT <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+                
+            </div>
+        </section>
+    </main>  
+    <footer>
+        <div class="social-icon">
+            <li>
+                <a href="https://linkedin.com/in/vanessa-fernandez-perez">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/mariva0280">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://facebook.com/mariva.fernadezperez">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com/marivafp">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </div> 
+        <div class="start">
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#studies">Studies</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </div>
+        <p>&copy; 2024 All Rights Reserved</p>
+    </footer>  
+</body> 
+<script src="assets/js/index.js"></script>
